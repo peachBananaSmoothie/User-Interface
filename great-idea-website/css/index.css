@@ -66,53 +66,80 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-	width: 900px;
+	width: 876px;
 	margin: 0 auto;
-	border: 1px solid red;
+}
+
+.top-bar {
+	width: 876px;
+	margin-top: 25px;
+	border: 1px solid black;
+	background: white;
+	position: fixed;
 }
 
 header section nav {
 	display: inline-block;
 	padding: 10px;
+}
+
+a {
+	background: black;
+	color: white;
+	margin: 0 50px 0 0;
+}
+
+.logo {
+	display: inline;
+	margin-top: 10px;
+	margin-left: 40px;
 	border: 1px solid red;
 }
 
 .top-block1 {
+	width: 876px;
+	height: 400px;
 	display:inline-block;
-	margin-top: 30px;
-	border: 1px solid red;
+	margin-top: 150px;
+	margin-bottom: 100px;
 }
 
 .right {
 	display: inline-block;
-	border: 1px solid red;
 	width: 48%;
-	margin: auto;
+	margin-right: 0px;
 }
 
 .left {
 	display: inline-block;
-	border: 1px solid red;
 	width: 48%;
-	margin: auto;
 }
 
 .name {
 	text-align: center;
-	font-size: 40px;
-	border: 1px solid red;
+	font-size: 100px;
+}
+
+.p1 {
+	padding-top: 50px;
+	border-top: 1px solid black;
+	margin-bottom: 50px;
+}
+
+.p2 {
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
 }
 
 .p1p {
-	width: 445px;
+	width: 49.5%;
 	display: inline-block;
-	border: 1px solid red;
 }
 
 .p2p {
 	width: 33%;
 	display: inline-block;
-	border: 1px solid red;
 }
 
 .p1p h2, .p2p h2 {
@@ -120,7 +147,40 @@ header section nav {
 }  
 
 button {
-	background: none;
-	border: 1px solid red;
+	height: 50px;
+	width: 150px;
+	color: white;
+	background: black;
+	border: 1px solid black;
 	margin: 0 auto;
+	margin-left: 150px;
+	margin-bottom: 50px;
 }
+
+button:hover {
+	animation-name: butn-hov;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+} 
+
+@keyframes butn-hov {
+	100% {
+		background: white;
+		color: black;
+	}
+}
+
+.contact {
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+address {
+	margin-bottom: 50px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+

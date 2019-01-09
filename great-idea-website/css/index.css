@@ -65,16 +65,62 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header section nav a {
+.container {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+header section nav {
 	display: inline-block;
 	padding: 10px;
+	border: 1px solid red;
 }
 
-.logo {
-	display: inline;
+.top-block1 {
+	display:inline-block;
+	margin-top: 30px;
+	border: 1px solid red;
 }
 
-.container {
-	width: 800px;
+.right {
+	display: inline-block;
+	border: 1px solid red;
+	width: 48%;
 	margin: auto;
+}
+
+.left {
+	display: inline-block;
+	border: 1px solid red;
+	width: 48%;
+	margin: auto;
+}
+
+.name {
+	text-align: center;
+	font-size: 40px;
+	border: 1px solid red;
+}
+
+.p1p {
+	width: 445px;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+.p2p {
+	width: 33%;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+.p1p h2, .p2p h2 {
+	font-size: 20px;
+}  
+
+button {
+	background: none;
+	border: 1px solid red;
+	margin: 0 auto;
 }
